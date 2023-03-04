@@ -1,6 +1,4 @@
-let zsr = {
-    _baseUrl : 'https://scholarrank.ssang.top:28087'
-};
+
 
 zsr.init = function() {
     // Register the callback in Zotero as an item observer
@@ -82,7 +80,7 @@ zsr.processItems = function(items) {
 
     }
 }
-zsr.getRank = function(item,cb){
+zsr.getRank = function(item){
     let url;
     if (item.itemType == 'journalArticle'){
         if (item.getField('publicationTitle')){url = encodeURI(zsr._baseUrl+"/1/" +item.getField('publicationTitle'));}//1:期刊，2：会议
@@ -112,7 +110,15 @@ zsr.getRank = function(item,cb){
                 cb(item,"Net Error");
             }
         }            
-        http.send();
+    http.send();
+    
+    switch (item.itemType) {
+        case 'journalArticle':
+            break
+        case 'conferencePaper':
+            break
+        
+    }
 }
 
 if (typeof window !== 'undefined') {

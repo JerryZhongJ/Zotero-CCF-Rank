@@ -1,0 +1,86 @@
+{
+   "result" : {
+      "completions" : {
+         "@computed" : "1",
+         "@sent" : "1",
+         "@total" : "1",
+         "c" : {
+            "@dc" : "1",
+            "@id" : "48958247",
+            "@oc" : "1",
+            "@sc" : "1",
+            "text" : "javascript"
+         }
+      },
+      "hits" : {
+         "@computed" : "1",
+         "@first" : "0",
+         "@sent" : "1",
+         "@total" : "1",
+         "hit" : [
+            {
+               "@id" : "3345167",
+               "@score" : "9",
+               "info" : {
+                  "access" : "closed",
+                  "authors" : {
+                     "author" : [
+                        {
+                           "@pid" : "29/9698",
+                           "text" : "Vineeth Kashyap"
+                        },
+                        {
+                           "@pid" : "143/7405",
+                           "text" : "Kyle Dewey"
+                        },
+                        {
+                           "@pid" : "143/7498",
+                           "text" : "Ethan A. Kuefner"
+                        },
+                        {
+                           "@pid" : "21/2241",
+                           "text" : "John Wagner"
+                        },
+                        {
+                           "@pid" : "143/7348",
+                           "text" : "Kevin Gibbons"
+                        },
+                        {
+                           "@pid" : "141/1572",
+                           "text" : "John Sarracino"
+                        },
+                        {
+                           "@pid" : "44/1019",
+                           "text" : "Ben Wiedermann"
+                        },
+                        {
+                           "@pid" : "89/4824",
+                           "text" : "Ben Hardekopf"
+                        }
+                     ]
+                  },
+                  "doi" : "10.1145/2635868.2635904",
+                  "ee" : "https://doi.org/10.1145/2635868.2635904",
+                  "key" : "conf/sigsoft/KashyapDKWGSWH14",
+                  "pages" : "121-132",
+                  "title" : "JSAI: a static analysis platform for JavaScript.",
+                  "type" : "Conference and Workshop Papers",
+                  "url" : "https://dblp.org/rec/conf/sigsoft/KashyapDKWGSWH14",
+                  "venue" : "SIGSOFT FSE",
+                  "year" : "2014"
+               },
+               "url" : "URL#3345167"
+            }
+         ]
+      },
+      "query" : "JSAI* a static* analysis* platform* for* JavaScript*",
+      "status" : {
+         "@code" : "200",
+         "text" : "OK"
+      },
+      "time" : {
+         "@unit" : "msecs",
+         "text" : "215.58"
+      }
+   }
+}
